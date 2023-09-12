@@ -24,7 +24,7 @@ const Details = () => {
     return (
         <div>
             <h3>User Details</h3>
-            <p>{JSON.stringify(user)}</p>
+            <p>{JSON.stringify(user.name)}</p>
             <button onClick={() => navigate(-1)}>back</button>
             <button onClick={() => navigate("/home")}>home</button>
         </div>
